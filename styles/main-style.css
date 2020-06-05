@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.corpo {
+    background-color: black;
+
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding-top: 40px;
+}
+
+header span {
+    color: #21EB00;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+header button {
+    height: 50px;
+    width: 170px;
+
+    margin-right: 30px;
+
+    border-radius: 20px;
+    border: none;
+    outline: none;
+
+    background-color: #21EB00;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .falta {
+    color: #191A18;
+    
+    font-size: 70px;
+    font-weight: bold;
+}
+
+main .tempo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.tempo .piece {
+    color: white;
+    text-align: center;
+}
+
+.tempo .piece h1 {
+    margin: 0;
+
+    font-size: 120px;
+    font-weight: 100;
+
+    display: flex;
+    justify-content: center;
+}
+
+.tempo .piece span {
+    color: #21EB00;
+    font-size: 25px;
+}
