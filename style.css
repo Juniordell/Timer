@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border: none;
+}
+
+.contador {
+    color: #21EB00;
+}
+
+.data {
+    color: rgb(180, 180, 180);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+   border-radius: 25px;
+   border: none;
+
+   width: 200px;
+   height: 50px;
+
+   padding-left: 20px;
+
+   color: white;
+   background-color: rgb(27, 27, 27);
+}
+
+button {
+    border-radius: 25px;
+    border: none;
+
+    width: 220px;
+    height: 50px;
+
+    margin-top: 20px;
+
+    background-color: #21EB00;
+    color: black;
+
+    font-weight: bold;
+}
