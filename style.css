@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -19,6 +21,7 @@ body {
 
 .contador {
     color: #21EB00;
+    font-size: 25px;
 }
 
 .data {
@@ -29,12 +32,23 @@ body {
     align-items: center;
 }
 
-input {
+.data span {
+    font-size: 28px;
+
+    margin-bottom: 10px;
+}
+
+.data input {
    border-radius: 25px;
    border: none;
 
-   width: 200px;
-   height: 50px;
+   font-size: 18px;
+   font-weight: bold;
+
+   outline: none;
+
+   width: 300px;
+   height: 55px;
 
    padding-left: 20px;
 
@@ -44,10 +58,12 @@ input {
 
 button {
     border-radius: 25px;
-    border: none;
+    border: 0;
 
-    width: 220px;
-    height: 50px;
+    width: 320px;
+    height: 55px;
+
+    cursor: pointer;
 
     margin-top: 20px;
 
@@ -55,4 +71,7 @@ button {
     color: black;
 
     font-weight: bold;
+    font-size: 20px;
+
+    outline: none;
 }
