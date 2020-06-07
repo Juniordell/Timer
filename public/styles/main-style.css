@@ -82,3 +82,19 @@ main .tempo {
     color: #21EB00;
     font-size: 25px;
 }
+
+.time-out {
+    position: absolute;
+    font-size: 40px;
+    display: none;
+}
+
+.time-out .ex, i{
+    color: #21EB00;
+}
+
+.time-out h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

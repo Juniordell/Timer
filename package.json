@@ -1,0 +1,27 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juniordell/Timer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juniordell/Timer/issues"
+  },
+  "homepage": "https://github.com/Juniordell/Timer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "handlebars": "^4.7.6",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.1"
+  }
+}

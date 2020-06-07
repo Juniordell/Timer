@@ -56,6 +56,18 @@ body {
    background-color: #191A18;
 }
 
+.error {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 57px;
+    color: red;
+    display: none;
+}
+
+.error span {
+    font-size: 20px;
+}
+
 button {
     border-radius: 25px;
     border: 0;

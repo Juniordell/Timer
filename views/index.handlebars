@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Timer</title>
 
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/main-style.css">
 
@@ -14,7 +16,7 @@
 
             <header>
                 <span>Contador</span>
-                <button>Reiniciar</button>
+                <button onclick="troca2()">Reiniciar</button>
             </header>
 
             <main>
@@ -23,29 +25,41 @@
                 <div class="tempo">
 
                     <div class="piece">
-                        <h1>2</h1>
+                        <h1 id="t1"></h1>
                         <span>Dias</span>
                     </div>
 
                     <div class="piece">
-                        <h1>10</h1>
+                        <h1 id="t2"></h1>
                         <span>Horas</span>
                     </div>
 
                     <div class="piece">
-                        <h1>40</h1>
+                        <h1 id="t3"></h1>
                         <span>Minutos</span>
                     </div>
 
                     <div class="piece">
-                        <h1>13</h1>
+                        <h1 id="t4"></h1>
                         <span>Segundos</span>
-
                     </div>
 
                 </div>
+
+                <div class="time-out">
+
+                    <h1>
+                        <span>Chegou a hora<span class="ex">!!!</span></span>
+                        <i class="fas fa-laugh-beam"></i>
+                    </h1>
+
+                </div>
+
             </main>
 
         </div>
+
+        <script src="scripts/change.js"></script>
+        <script src="scripts/main.js"></script>
     </body>
 </html>
